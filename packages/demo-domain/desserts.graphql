@@ -1,0 +1,22 @@
+type Dessert {
+  id: Int!
+  name: String,
+  nutritions: Array
+}
+
+type Query {
+  dessert(id: Int): Dessert,
+  desserts: [Dessert]
+}
+
+type Mutation {
+  createDessert(
+    name: String,
+    nutritions: Array
+  ): Int
+}
+
+schema {
+  query: Query
+  mutation: Mutation
+}

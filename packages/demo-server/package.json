@@ -1,0 +1,24 @@
+{
+  "name": "demo-server",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node ./",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^2.0.8",
+    "apollo-server-express": "^2.0.7",
+    "caller": "^1.0.1",
+    "express": "^4.16.3",
+    "express-graphql": "^0.6.12",
+    "graphql": "^14.0.2",
+    "ramda": "^0.25.0",
+    "require-graphql": "^1.0.0",
+    "resolve": "^1.8.1"
+  }
+}

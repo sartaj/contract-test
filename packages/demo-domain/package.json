@@ -1,0 +1,15 @@
+{
+  "name": "reservr-domain",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "casual": "^1.5.19",
+    "ramda": "^0.25.0"
+  }
+}

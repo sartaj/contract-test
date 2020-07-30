@@ -1,0 +1,21 @@
+{
+  "name": "reservr-cloud-repository",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "",
+    "build": "",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "reservr-domain": "1.0.0",
+    "ramda": "^0.25.0",
+    "request-promise": "^4.2.2",
+    "sequelize": "^4.38.1",
+    "sqlite3": "^4.0.2"
+  }
+}

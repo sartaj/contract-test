@@ -1,0 +1,21 @@
+{
+  "private": true,
+  "repository": "git@github.com:sartaj/contract-test.git",
+  "scripts": {
+    "dev:server": "cd packages/demo-server && yarn start",
+    "dev:web": "cd packages/demo-client && yarn start",
+    "reset": "yarn reset-modules && yarn reset-cache",
+    "reset-modules": "rm -rf node_modules/ yarn.lock packages/*/node_modules",
+    "reset-yarn": "yarn cache clean",
+    "reset-cache": "yarn reset-yarn && yarn reset-rn"
+  },
+  "workspaces": {
+    "packages": ["packages/*"],
+    "nohoist": [
+      "**/@types/yup"
+    ]
+  },
+  "devDependencies": {
+    "lerna": "^2.5.1"
+  }
+}
